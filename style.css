@@ -1,0 +1,171 @@
+/* Add your css styles here */
+
+.container {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.noteRow {
+    border: 1px solid rgb(139, 142, 143);
+    vertical-align: middle;
+}
+
+.notesList {
+    float: left;
+    width: 35%;
+    height: 100%;
+    overflow: overlay;
+}
+
+.noteRow>* {
+    display: block;
+    margin: 10px 10px;
+}
+
+.noteDetail {
+    /* padding-left: 8px; */
+    width: 65%;
+    float: right;
+}
+
+.actionButtons>* {
+    display: block;
+    margin: 10px 10px;
+}
+
+.noteAndHeader>* {
+    display: block;
+    margin: 10px 10px;
+}
+
+#noteTitle {
+    font-size: large;
+}
+
+.delSave {
+    float: right;
+    display: block;
+    margin: 10px 10px;
+}
+
+.newAndColors {
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.red {
+    background-color: #ffdddd;
+    /* border-left: 6px solid #f44336; */
+    transition-duration: 0.4s;
+}
+
+.red :hover {
+    /* background-color: #ffdddd; */
+    border-left: 6px solid #f44336;
+}
+
+.green {
+    background-color: #ddffdd;
+    transition-duration: 0.4s;
+    /* border-left: 6px solid #4CAF50; */
+}
+
+.green :hover {
+    border-left: 6px solid #4CAF50;
+}
+
+.blue {
+    background-color: #e7f3fe;
+    transition-duration: 0.4s;
+    /* border-left: 6px solid #2196F3; */
+}
+
+.yellow {
+    background-color: #ffffcc;
+    transition-duration: 0.4s;
+    /* border-left: 6px solid #ffeb3b; */
+}
+
+.colorGrid {
+    display: grid;
+    margin-left: 18px;
+    margin-top: 3px;
+    grid-template-columns: 40px 40px 40px 40px;
+    height: 40px;
+    grid-gap: 5px;
+}
+
+
+/* .colorGrid>* {
+    border: 4px solid rgba(0, 0, 0, .5);
+} */
+
+textarea {
+    width: 100%;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+p {
+    text-overflow: ellipsis;
+    height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 60%;
+}
+
+header {
+    text-align: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bolder;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.center {
+    margin: auto;
+    width: 65%;
+    height: 80%;
+    border: 3px solid rgb(189, 190, 189);
+    padding: 10px;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: rgb(13, 77, 15);
+    /* Green */
+    color: white;
+}
+
+.buttonDel:hover {
+    background-color: rgb(102, 26, 26);
+    /* Green */
+    color: white;
+}
+
+.buttonDel {
+    background-color: rgb(170, 45, 45);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
